@@ -240,7 +240,7 @@ footer input {
     <label>DOWNLOAD CV</label>
     <input type="text">
     <script>
-        if(serviceWorker in navigator) {
+        if("serviceWorker" in navigator) {
             navigator.serviceWorker.register("/service.js")
         }
     </script>
