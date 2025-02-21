@@ -1,0 +1,15 @@
+{
+    "name":"Junior App",
+    "short_name":"Junior App",
+    "display":"standalone",
+    "theme_color": "#fdadba",
+    "background_color": "#ffffff",
+    "start_url": "/home.html",
+    "icons": [
+        {
+            "src": "/junior.jpg",
+            "sizes": "1920x2560",
+            "type": "image/jpg"
+        }
+    ]
+}

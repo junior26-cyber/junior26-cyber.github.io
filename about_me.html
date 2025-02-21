@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <style>
+       
+
+/* Variables CSS pour les couleurs, les polices et les tailles */
+:root {
+    --couleur-primaire: #2980b9; /* Bleu */
+    --couleur-secondaire: #e74c3c; /* Rouge */
+    --couleur-fond: #f8f8f8; /* Gris clair */
+    --couleur-texte: #333; /* Gris foncé */
+    --couleur-claire: #fff; /* Blanc */
+    --font-principale: 'Arial', sans-serif;
+    --font-titre: 'Montserrat', sans-serif; /* Exemple de police de titre */
+    --taille-max-conteneur: 960px;
+}
+
+/* Styles généraux */
+body {
+    font-family: var(--font-principale);
+    margin: 0;
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: var(--couleur-primaire);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--couleur-secondaire);
+}
+
+
+
+ .gros {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #2980b9;
+}
+
+ .petit {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Header et navigation */
+header {
+    background-color: var(--couleur-claire);
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+nav a {
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--couleur-primaire);
+    color: var(--couleur-claire);
+
+    }
+
+/* Main */
+main {
+    padding: 2rem;
+    max-width: var(--taille-max-conteneur);
+    margin: 2rem auto;
+    flex: 1;
+    text-align: justify; /* Texte justifié pour plus de lisibilité */
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.8; /* Améliore l'espacement entre les lignes */
+}
+
+/* Styles spécifiques à la page "À propos de moi" */
+main h4 {
+    margin-bottom: 1.5rem; /* Marge plus importante entre les paragraphes */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: var(--couleur-claire);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+    filter: invert(100%);
+    transition: transform 0.2s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+footer label, footer input {
+    display: block;
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+footer input {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    nav li {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    main {
+        text-align: left; /* Texte aligné à gauche sur les petits écrans */
+    }
+}
+.titre {
+    position: relative;
+    right: 15%;
+
+    }
+    </style>
+    
+    <header>
+        <nav>
+            <ul>
+                <li class="titre"><span class="gros">Port</span><span class="petit">folio</span></li>
+                <li><a href="home.html"> HOME</a></li>
+                <li><a href="about_me.html">ABOUT ME</a></li>
+                <li><a href="project.html">PROJECTS</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="contact_me.html">CONCTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+ <main>
+    
+       <h4> Bonjour, je m'appelle Junior et je suis étudiant en première année d'informatique à Lomé Busines School 🎓. Passionné par les nouvelles technologies, l'intelligence artificielle 🤖 et la résolution de problèmes complexes 💡, j'ai choisi de me lancer dans cette voie pour allier mon intérêt pour la logique, la programmation et l'innovation 🚀.</h4> 
+
+    <h4> Actuellement, je découvre des domaines variés comme les bases de données, la programmation orientée objet et les réseaux 🌐. J'apprécie particulièrement le développement de solutions logicielles qui peuvent améliorer l'efficacité des processus et faciliter le quotidien des utilisateurs 🖥️. J'ai également eu l'opportunité de travailler sur des projets de programmation en Python et Java, et je suis en train de développer une application web simple pour un projet universitaire 📱.</h4> 
+
+    <h4> Mon objectif est de continuer à développer mes compétences en programmation et en gestion de projets informatiques 👨‍💻. À long terme, j'aimerais travailler dans le développement logiciel ou la cybersécurité 🔒, en contribuant à des projets innovants et ayant un impact positif sur la société 🌍.</h4> 
+
+     <h4> Je suis une personne curieuse, persévérante et toujours prête à relever de nouveaux défis 💪. J'aime travailler en équipe et échanger des idées pour trouver des solutions créatives 🤝. Enthousiaste à l'idée de continuer mon parcours en informatique, je suis impatient de mettre en pratique ce que j'apprends à travers des projets concrets et de continuer à évoluer dans ce domaine passionnant 🚀.</h4> 
+   
+ </main>
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Couleur de fond claire */
+    color: #333; /* Couleur de texte sombre */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Titre principal */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gros {
+    font-size: 2em;
+    color: #007bff; /* Couleur bleue pour "Port" */
+}
+
+.petit {
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centre les liens de navigation */
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px; /* Bords arrondis pour les liens */
+    transition: background-color 0.3s ease; /* Transition douce au survol */
+}
+
+nav a:hover {
+    background-color: #007bff; /* Couleur de fond bleue au survol */
+    color: white;
+}
+
+/* Section principale (main) */
+main {
+    padding: 20px;
+}
+
+h3 {
+    color: #007bff; /* Couleur bleue pour les titres de projets */
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #666; /* Couleur grise pour les sous-titres */
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; /* Bords arrondis pour les projets */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Bords arrondis pour les images de projet */
+}
+
+/* Pied de page (footer) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Styles pour les écrans plus petits (responsive design) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav li {
+        display: block; /* Affiche les liens de navigation verticalement */
+        margin: 5px 0;
+    }
+
+    .project {
+        padding: 10px;
+    }
+}
